@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4833231B79C71C009AC4E4 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC48331F1B79C71C009AC4E4 /* MBTextView.m */; };
+		BC4833241B79C71C009AC4E4 /* MBComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4833221B79C71C009AC4E4 /* MBComposeToolbar.m */; };
+		BC4833271B79C7E3009AC4E4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4833261B79C7E3009AC4E4 /* UIView+Extension.m */; };
+		BC51046E1B7988F80036CFA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC51046D1B7988F80036CFA7 /* main.m */; };
+		BC5104711B7988F80036CFA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5104701B7988F80036CFA7 /* AppDelegate.m */; };
+		BC5104741B7988F80036CFA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5104731B7988F80036CFA7 /* ViewController.m */; };
+		BC5104771B7988F80036CFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5104751B7988F80036CFA7 /* Main.storyboard */; };
+		BC5104791B7988F80036CFA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5104781B7988F80036CFA7 /* Images.xcassets */; };
+		BC51047C1B7988F80036CFA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC51047A1B7988F80036CFA7 /* LaunchScreen.xib */; };
+		BC5104881B7988F90036CFA7 /* CustomToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5104871B7988F90036CFA7 /* CustomToolBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5104821B7988F90036CFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5104601B7988F80036CFA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5104671B7988F80036CFA7;
+			remoteInfo = CustomToolBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC48331E1B79C71C009AC4E4 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
+		BC48331F1B79C71C009AC4E4 /* MBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextView.m; sourceTree = "<group>"; };
+		BC4833211B79C71C009AC4E4 /* MBComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBComposeToolbar.h; sourceTree = "<group>"; };
+		BC4833221B79C71C009AC4E4 /* MBComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBComposeToolbar.m; sourceTree = "<group>"; };
+		BC4833251B79C7E3009AC4E4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../../Cateory/UIView+Extension.h"; sourceTree = "<group>"; };
+		BC4833261B79C7E3009AC4E4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../../Cateory/UIView+Extension.m"; sourceTree = "<group>"; };
+		BC5104681B7988F80036CFA7 /* CustomToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC51046C1B7988F80036CFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC51046D1B7988F80036CFA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC51046F1B7988F80036CFA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC5104701B7988F80036CFA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC5104721B7988F80036CFA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC5104731B7988F80036CFA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC5104761B7988F80036CFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC5104781B7988F80036CFA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC51047B1B7988F80036CFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC5104811B7988F90036CFA7 /* CustomToolBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomToolBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5104861B7988F90036CFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5104871B7988F90036CFA7 /* CustomToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomToolBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5104651B7988F80036CFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC51047E1B7988F90036CFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC48331D1B79C71C009AC4E4 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				BC48331E1B79C71C009AC4E4 /* MBTextView.h */,
+				BC48331F1B79C71C009AC4E4 /* MBTextView.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		BC4833201B79C71C009AC4E4 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC4833211B79C71C009AC4E4 /* MBComposeToolbar.h */,
+				BC4833221B79C71C009AC4E4 /* MBComposeToolbar.m */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		BC51045F1B7988F80036CFA7 = {
+			isa = PBXGroup;
+			children = (
+				BC51046A1B7988F80036CFA7 /* CustomToolBar */,
+				BC5104841B7988F90036CFA7 /* CustomToolBarTests */,
+				BC5104691B7988F80036CFA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5104691B7988F80036CFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5104681B7988F80036CFA7 /* CustomToolBar.app */,
+				BC5104811B7988F90036CFA7 /* CustomToolBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC51046A1B7988F80036CFA7 /* CustomToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC4833251B79C7E3009AC4E4 /* UIView+Extension.h */,
+				BC4833261B79C7E3009AC4E4 /* UIView+Extension.m */,
+				BC48331D1B79C71C009AC4E4 /* TextView */,
+				BC4833201B79C71C009AC4E4 /* ToolBar */,
+				BC51046F1B7988F80036CFA7 /* AppDelegate.h */,
+				BC5104701B7988F80036CFA7 /* AppDelegate.m */,
+				BC5104721B7988F80036CFA7 /* ViewController.h */,
+				BC5104731B7988F80036CFA7 /* ViewController.m */,
+				BC5104751B7988F80036CFA7 /* Main.storyboard */,
+				BC5104781B7988F80036CFA7 /* Images.xcassets */,
+				BC51047A1B7988F80036CFA7 /* LaunchScreen.xib */,
+				BC51046B1B7988F80036CFA7 /* Supporting Files */,
+			);
+			path = CustomToolBar;
+			sourceTree = "<group>";
+		};
+		BC51046B1B7988F80036CFA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC51046C1B7988F80036CFA7 /* Info.plist */,
+				BC51046D1B7988F80036CFA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC5104841B7988F90036CFA7 /* CustomToolBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5104871B7988F90036CFA7 /* CustomToolBarTests.m */,
+				BC5104851B7988F90036CFA7 /* Supporting Files */,
+			);
+			path = CustomToolBarTests;
+			sourceTree = "<group>";
+		};
+		BC5104851B7988F90036CFA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC5104861B7988F90036CFA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5104671B7988F80036CFA7 /* CustomToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC51048B1B7988F90036CFA7 /* Build configuration list for PBXNativeTarget "CustomToolBar" */;
+			buildPhases = (
+				BC5104641B7988F80036CFA7 /* Sources */,
+				BC5104651B7988F80036CFA7 /* Frameworks */,
+				BC5104661B7988F80036CFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomToolBar;
+			productName = CustomToolBar;
+			productReference = BC5104681B7988F80036CFA7 /* CustomToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5104801B7988F90036CFA7 /* CustomToolBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC51048E1B7988F90036CFA7 /* Build configuration list for PBXNativeTarget "CustomToolBarTests" */;
+			buildPhases = (
+				BC51047D1B7988F90036CFA7 /* Sources */,
+				BC51047E1B7988F90036CFA7 /* Frameworks */,
+				BC51047F1B7988F90036CFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5104831B7988F90036CFA7 /* PBXTargetDependency */,
+			);
+			name = CustomToolBarTests;
+			productName = CustomToolBarTests;
+			productReference = BC5104811B7988F90036CFA7 /* CustomToolBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5104601B7988F80036CFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = daihanqi;
+				TargetAttributes = {
+					BC5104671B7988F80036CFA7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BC5104801B7988F90036CFA7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BC5104671B7988F80036CFA7;
+					};
+				};
+			};
+			buildConfigurationList = BC5104631B7988F80036CFA7 /* Build configuration list for PBXProject "CustomToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC51045F1B7988F80036CFA7;
+			productRefGroup = BC5104691B7988F80036CFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5104671B7988F80036CFA7 /* CustomToolBar */,
+				BC5104801B7988F90036CFA7 /* CustomToolBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5104661B7988F80036CFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5104771B7988F80036CFA7 /* Main.storyboard in Resources */,
+				BC51047C1B7988F80036CFA7 /* LaunchScreen.xib in Resources */,
+				BC5104791B7988F80036CFA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC51047F1B7988F90036CFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5104641B7988F80036CFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4833271B79C7E3009AC4E4 /* UIView+Extension.m in Sources */,
+				BC5104741B7988F80036CFA7 /* ViewController.m in Sources */,
+				BC4833241B79C71C009AC4E4 /* MBComposeToolbar.m in Sources */,
+				BC5104711B7988F80036CFA7 /* AppDelegate.m in Sources */,
+				BC4833231B79C71C009AC4E4 /* MBTextView.m in Sources */,
+				BC51046E1B7988F80036CFA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC51047D1B7988F90036CFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5104881B7988F90036CFA7 /* CustomToolBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5104831B7988F90036CFA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5104671B7988F80036CFA7 /* CustomToolBar */;
+			targetProxy = BC5104821B7988F90036CFA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC5104751B7988F80036CFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5104761B7988F80036CFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC51047A1B7988F80036CFA7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC51047B1B7988F80036CFA7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC5104891B7988F90036CFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC51048A1B7988F90036CFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC51048C1B7988F90036CFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomToolBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC51048D1B7988F90036CFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomToolBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC51048F1B7988F90036CFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomToolBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomToolBar.app/CustomToolBar";
+			};
+			name = Debug;
+		};
+		BC5104901B7988F90036CFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomToolBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomToolBar.app/CustomToolBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5104631B7988F80036CFA7 /* Build configuration list for PBXProject "CustomToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5104891B7988F90036CFA7 /* Debug */,
+				BC51048A1B7988F90036CFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC51048B1B7988F90036CFA7 /* Build configuration list for PBXNativeTarget "CustomToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC51048C1B7988F90036CFA7 /* Debug */,
+				BC51048D1B7988F90036CFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC51048E1B7988F90036CFA7 /* Build configuration list for PBXNativeTarget "CustomToolBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC51048F1B7988F90036CFA7 /* Debug */,
+				BC5104901B7988F90036CFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5104601B7988F80036CFA7 /* Project object */;
+}
